@@ -12,8 +12,8 @@ import java.util.Stack;
  */
 public class PolangNotation1 {
 public static void main(String[] args) {
-	String expression="1+((2+3)*4)-5";
-	List<String> middleList = toMiddleList(expression);
+	String expression1="1+((2+3)*4)-5";
+	List<String> middleList = toMiddleList(expression1);
 	System.out.println(middleList);
 	List<String> suffixList = toSuffixList(middleList);
 	System.out.println(suffixList);
